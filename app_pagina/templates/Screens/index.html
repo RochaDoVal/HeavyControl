@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Inicial</title>
+  <link rel="stylesheet" href="{% static 'app_pag/style/index.css' %}">
+</head>
+<body>
+  <header class="principal">
+    <div class="head">
+      <div class="logo">
+        <img class="img-logo" src="{% static 'app_pag/images/Logo_Gees.png' %}" alt="Logomarca Gees">
+      </div>
+      <nav class="btn">
+        <ul> 
+          <li><a class="ini" onclick="location.reload()">Início</a></li>
+          <!--<li><a class="ini2" href="{% url 'cadastrar_maquina'%}">Cad.Maquina</a></li> -->
+          <li><a class="ini2" href="#">Formulário</a></li>
+          <!--<li><a class="ini2" href="#">Clientes</a></li>
+          <li><a class="ini2" href="#">Contato</a></li> -->
+          <li><a class="ligar" href="#">Adm</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+</body>
+</html>
