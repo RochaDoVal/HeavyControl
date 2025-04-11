@@ -1,0 +1,93 @@
+:root {
+    --gees-blue: #2A4B7C;
+    --gees-gold: #F9C74F;
+    --gees-white: #FFFFFF;
+    --text-body: #2A4B7C;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background-color: var(--gees-white);
+    color: var(--text-body);
+    font-family: Arial, sans-serif;
+
+    background-image: url('/static/app_pag/images/Logo_Gees.png');
+    background-repeat: no-repeat;
+    background-size: 30% auto;
+    background-position: center center;
+  }
+  
+  header.principal {
+    width: 100%;
+    background-color: var(--gees-white);
+    padding: 0.5rem 1rem;
+    border-bottom: 3px solid var(--gees-blue);
+  }
+  
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .img-logo {
+    max-width: 120px;
+    height: auto;
+  }
+  
+  nav.btn ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+  }
+  
+  nav.btn a {
+    text-decoration: none;
+    color: var(--gees-blue);
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+  }
+  
+  nav.btn a.ini {
+    color: var(--gees-gold);
+  }
+  
+  nav.btn a.ligar {
+    background-color: var(--gees-gold);
+    color: var(--gees-white);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+  }
+
+  nav.btn a:hover {
+    background-color: var(--gees-blue);
+    color: var(--gees-white);
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .head {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    nav.btn ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+    }
+  }
+  
