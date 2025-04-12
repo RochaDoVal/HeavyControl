@@ -1,2 +1,13 @@
 # HeavyControl MAIN
-HeavyControl O objetivo desse projeto é proporcionar um ambiente digital eficiente para organização, controle e gestão de máquinas pesadas e caminhões, contribuindo para uma tomada de decisão mais assertiva, quanto a manutenção, e uma melhor visualização do quadro e estado geral dos equipamentos.  O HeavyControl é uma plataforma online que permite a criação e gestão de maquinários pesados e caminhões, focada na automatização e otimização de processos. O sistema será acessível via web e dispositivos móveis, oferecendo funcionalidades como: Controle de Manutenção; Coleta de dados via formulário; Emissão de Relatórios; Histórico de Maquinas.
+Descrição do projeto:
+Imagine uma plataforma online revolucionária que transforma a gestão de maquinários pesados e caminhões, integrando automação e otimização de processos operacionais de forma surpreendente. A partir de um formulário inteligente e intuitivo (já finalizado), totalmente responsivo e adaptável a qualquer dispositivo, seja computador ou celular, os responsáveis preenchem diariamente informações essenciais sobre o desempenho das máquinas, garantindo monitoramento preciso em tempo real.
+A área administrativa está funcional, permitindo a criação, leitura, atualização e exclusão de dados dos formulários e dos registros dos equipamentos, o que agiliza e simplifica as operações. Com uma estrutura cuidadosamente planejada, o sistema confere exclusividade ao administrador para a adição de novas máquinas, seguindo as regras de negócio que asseguram a integridade das operações.
+
+Paradigmas aplicados e justificativa: O paradigma adotado foi a programação orientada a objetos e , escolhido em razão da tecnologia empregada especificamente, o django, bem como pelo fato de que a equipe possui ampla familiaridade com a linguagem python e o referido framework, embora o foco principal seja em orientação a objetos, programação mais declarativa em configurações e consultas com o ORM.
+
+Como executar o sistema:  Enviamos todo o projeto para o repositório do GitHub (disponível em https://github.com/RochaDoVal/HeavyControl ). Embora não tenha sido possível hospedar o sistema, ele foi construído de forma funcional. Para acessar a área administrativa, utilize as seguintes credenciais:
+
+Usuário: admin
+Senha: adm
+
+O empenho em adotar as melhores práticas de desenvolvimento resultou em uma solução que, embora não hospedada, se destaca pela funcionalidade e integridade operacional.
