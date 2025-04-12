@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página Inicial</title>
   <link rel="stylesheet" href="{% static 'app_pag/style/index.css' %}">
+  <script>
+    function mostrarMensagem() {
+      alert("Essa aba encontra-se em processo de desenvolvimento! ");
+    }
+  </script>
 </head>
 <body>
   <header class="principal">
@@ -17,11 +22,8 @@
       <nav class="btn">
         <ul> 
           <li><a class="ini" onclick="location.reload()">Início</a></li>
-          <!--<li><a class="ini2" href="{% url 'cadastrar_maquina'%}">Cad.Maquina</a></li> -->
-          <li><a class="ini2" href="#">Formulário</a></li>
-          <!--<li><a class="ini2" href="#">Clientes</a></li>
-          <li><a class="ini2" href="#">Contato</a></li> -->
-          <li><a class="ligar" href="#">Adm</a></li>
+          <li><a class="ini2" href="{% url 'form_preenc' %}">Formulário</a></li>
+          <li><a class="ligar" onclick="mostrarMensagem()">Adm</a></li>
         </ul>
       </nav>
     </div>
