@@ -5,7 +5,7 @@ A área administrativa está funcional, permitindo a criação, leitura, atualiz
 
 Paradigmas aplicados e justificativa: O paradigma adotado foi a programação orientada a objetos e , escolhido em razão da tecnologia empregada especificamente, o django, bem como pelo fato de que a equipe possui ampla familiaridade com a linguagem python e o referido framework, embora o foco principal seja em orientação a objetos, programação mais declarativa em configurações e consultas com o ORM.
 
-Como executar o sistema:  Enviamos todo o projeto para o repositório do GitHub (disponível em https://github.com/RochaDoVal/HeavyControl ). Embora não tenha sido possível hospedar o sistema, ele foi construído de forma funcional. Para acessar a área administrativa, utilize as seguintes credenciais:
+Como executar o sistema:  Enviamos todo o projeto para o repositório do GitHub (disponível em https://github.com/RochaDoVal/HeavyControl/tree/development dentro da BRANCH development). Embora não tenha sido possível hospedar o sistema, ele foi construído de forma funcional. Para acessar a área administrativa, utilize as seguintes credenciais:
 
 Usuário: admin
 Senha: adm
