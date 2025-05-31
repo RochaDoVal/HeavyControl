@@ -1,1 +1,1 @@
-web: gunicorn heavycontrol.wsgi
+web: gunicorn App.wsgi
