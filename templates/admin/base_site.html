@@ -1,0 +1,10 @@
+{% extends "admin/base.html" %}
+{% load static %}
+
+{% block title %}Minha Administração{% endblock %}
+
+{% block branding %}
+  <a href="{% url 'admin:index' %}">
+    <img src="{% static 'imagens/logo.png' %}" alt="Logo" style="max-height: 75px;">
+  </a>
+{% endblock %}
