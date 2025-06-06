@@ -10,14 +10,9 @@ cpf_validator = RegexValidator(
 )
 
 cargo_choices = [
-    ("ANALISTA","ANALISTA"),
-    ("ASSISTENTE","ASSISTENTE"),
-    ("ESPECIALISTA","ESPECIALISTA"),
-    ("TÉCNICO","TÉCNICO"),
+    ("ADMINISTRADOR","ADMINISTRADOR"),
     ("OPERADOR","OPERADOR"),
-    ("AUXILIAR","AUXILIAR"),
-    ("ESTAGIÁRIO","ESTAGIÁRIO"),
-    ("MOTORISTA", "MOTORISTA"),
+    ("MOTORISTA","MOTORISTA"),
 ]
 
 class CustomUser(AbstractUser):
